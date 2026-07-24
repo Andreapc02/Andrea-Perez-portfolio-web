@@ -188,3 +188,110 @@ transform:translateY(0);
 }
 
 }
+
+/*
+Tecnologias
+*/
+.tech-card{
+
+    background:rgba(255,255,255,.8);
+
+    display:flex;
+    align-items:center;
+
+    gap:20px;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    border:1px solid rgba(0,0,0,.08);
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+/* detalle de color */
+
+.tech-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:5px;
+    height:100%;
+
+    left:0;
+    top:0;
+
+    background:linear-gradient(
+        180deg,
+        #6C63FF,
+        #00C9A7
+    );
+
+}
+
+
+/* efecto al pasar el mouse */
+
+.tech-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+    background:white;
+
+}
+
+
+
+.tech-card img{
+
+    width:55px;
+    height:55px;
+
+    object-fit:contain;
+
+    padding:8px;
+
+    border-radius:15px;
+
+    background:#f8f9ff;
+
+}
+
+
+
+.tech-card h4{
+
+    margin:0;
+
+    font-size:1.2rem;
+
+    font-weight:700;
+
+    color:#1F2937;
+
+}
+
+
+
+.tech-card p{
+
+    margin:6px 0 0;
+
+    font-size:.9rem;
+
+    color:#6B7280;
+
+}
