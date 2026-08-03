@@ -1,0 +1,284 @@
+body{
+
+    min-height:100vh;
+
+    background:
+    radial-gradient(
+        circle at 10% 20%,
+        rgba(96,165,250,.35),
+        transparent 30%
+    ),
+    radial-gradient(
+        circle at 90% 80%,
+        rgba(139,92,246,.25),
+        transparent 35%
+    ),
+    linear-gradient(
+        135deg,
+        #EAF2FF,
+        #D6E8FF
+    );
+
+}
+/* CONTENEDOR DE LA COMPUTADORA */
+
+.computer{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:60px auto;
+
+}
+
+
+/* PANTALLA */
+
+.screen{
+
+    background:white;
+
+    border:10px solid #202020;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    min-height:650px;
+
+    box-shadow:
+    0 25px 50px rgba(0,0,0,.20);
+
+}
+
+
+
+/* BARRA SUPERIOR */
+
+.mac-bar{
+
+    height:40px;
+
+    background:#1f1f1f;
+
+    position:relative;
+
+}
+
+
+
+/* BOTONES MAC */
+
+.mac-buttons{
+
+    position:absolute;
+
+    left:18px;
+
+    top:13px;
+
+    display:flex;
+
+    gap:8px;
+
+}
+
+
+.mac-buttons span{
+
+    width:13px;
+
+    height:13px;
+
+    border-radius:50%;
+
+    display:block;
+
+}
+
+
+
+/* Rojo cerrar */
+
+.close{
+
+    background:#FF5F57;
+
+}
+
+
+/* Amarillo minimizar */
+
+.minimize{
+
+    background:#FFBD2E;
+
+}
+
+
+/* Verde maximizar */
+
+.maximize{
+
+    background:#28C840;
+
+}
+
+
+
+/* CONTENIDO DE LA PANTALLA */
+
+.screen-content{
+
+    min-height:610px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:40px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #f8fafc,
+        #e0f2fe
+    );
+
+}
+
+
+
+.screen-content h1{
+
+    font-size:3rem;
+
+    color:#111827;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.screen-content h2{
+
+    color:#6366f1;
+
+    font-size:1.8rem;
+
+}
+
+
+
+.screen-content p{
+
+    max-width:500px;
+
+    color:#6b7280;
+
+    font-size:1.1rem;
+
+}
+
+
+
+/* BLOQUE DE CODIGO */
+
+.screen-code{
+
+    margin-top:30px;
+
+    padding:12px 25px;
+
+    background:#111827;
+
+    color:#38bdf8;
+
+    border-radius:12px;
+
+    font-family:monospace;
+
+}
+
+
+
+/* BASE DE LAPTOP */
+
+.laptop-base{
+
+    width:80%;
+
+    height:120px;
+
+    background:#d1d5db;
+
+    margin:auto;
+
+    border-radius:
+    0 0 25px 25px;
+
+    padding:15px;
+
+    box-shadow:
+    0 15px 25px rgba(0,0,0,.15);
+
+}
+
+.keyboard{
+
+    background:#9ca3af;
+
+    padding:12px;
+
+    border-radius:12px;
+
+}
+
+
+.row-key{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:8px;
+
+    margin-bottom:8px;
+
+}
+
+
+.row-key span{
+
+    width:35px;
+
+    height:12px;
+
+    background:#374151;
+
+    border-radius:4px;
+
+}
+
+
+.space-key{
+
+    width:180px;
+
+    height:12px;
+
+    background:#374151;
+
+    border-radius:5px;
+
+    margin:10px auto 0;
+
+}

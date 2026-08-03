@@ -1,0 +1,163 @@
+/* =========================
+      RESPONSIVE LAPTOP
+========================= */
+
+
+/* Tablets */
+
+@media (max-width: 992px){
+
+
+    .computer{
+
+        width:95%;
+
+        margin:40px auto;
+
+    }
+
+
+    .screen{
+
+        min-height:550px;
+
+        border-width:8px;
+
+    }
+
+
+    .screen-content{
+
+        min-height:510px;
+
+        padding:30px;
+
+    }
+
+
+    .screen-content h1{
+
+        font-size:2.4rem;
+
+    }
+
+
+    .screen-content h2{
+
+        font-size:1.5rem;
+
+    }
+
+
+    .laptop-base{
+
+        height:90px;
+
+        width:75%;
+
+    }
+
+
+}
+
+
+
+/* Celulares */
+
+@media (max-width:576px){
+
+
+    .computer{
+
+        width:100%;
+
+        padding:15px;
+
+        margin:25px auto;
+
+    }
+
+
+
+    .screen{
+
+        border-width:5px;
+
+        border-radius:15px;
+
+    }
+
+
+
+    .mac-bar{
+
+        height:30px;
+
+    }
+
+
+
+    .mac-buttons{
+
+        top:8px;
+
+        left:12px;
+
+    }
+
+
+
+    .mac-buttons span{
+
+        width:10px;
+
+        height:10px;
+
+    }
+
+
+
+    .screen-content{
+
+        min-height:400px;
+
+        padding:20px;
+
+    }
+
+
+
+    .screen-content h1{
+
+        font-size:1.8rem;
+
+    }
+
+
+
+    .screen-content h2{
+
+        font-size:1.1rem;
+
+    }
+
+
+
+    .screen-content p{
+
+        font-size:.9rem;
+
+    }
+
+
+
+    /* Reducimos teclado */
+
+    .laptop-base{
+
+        display:none;
+
+    }
+
+
+}
